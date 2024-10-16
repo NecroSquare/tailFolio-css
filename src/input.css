@@ -30,3 +30,11 @@ body {
 #toggle:checked ~ label div.toggle-circle {
     @apply translate-x-3;
 }
+
+:root {
+    --fill-color: #0EA5E9; /* Light mode */
+  }
+  
+  .dark {
+    --fill-color: #f8fafc; /* Dark mode (e.g., purple) */
+  }
